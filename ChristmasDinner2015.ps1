@@ -41,6 +41,7 @@ $foodItems += (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCoo
 
 # Parsnips need a decent roasting
 
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCooked Snips -DinnerTime "29 August 2016")
 
 
 
