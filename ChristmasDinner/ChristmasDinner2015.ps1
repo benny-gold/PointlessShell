@@ -43,7 +43,30 @@ $foodItems += (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCoo
 
 $foodItems += (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCooked Snips -DinnerTime "29 August 2016")
 
+# serve & eat starter
+
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 10 -FoodToBeCooked Salmon -DinnerTime "07 September 2016")
+
+
+# Sides
+
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 6 -FoodToBeCooked Beans)
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 40 -FoodToBeCooked CauliCheese)
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 25 -FoodToBeCooked Yorkies -DinnerTime "25 October 2016")
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 15 -FoodToBeCooked SproutsFirstWay)
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 25 -FoodToBeCooked SproutsSecondWay -DinnerTime "11 October 2016")
+
+
+#Appetisers
+$apps = @()
+[datetime]$GuestsArrive = "23 May 2016"
+$Apps += (Get-WhatTimeToStartCooking -CookingTime 10 -FoodToBeCooked "Pork Rind" -DinnerTime $GuestsArrive)
+$Apps += (Get-WhatTimeToStartCooking -CookingTime 17 -FoodToBeCooked "Cheese & Brie things" -DinnerTime $GuestsArrive.AddDays("10"))
+$Apps += (Get-WhatTimeToStartCooking -CookingTime 20 -FoodToBeCooked "Venison Pigs in blankets" -DinnerTime $GuestsArrive.AddDays("10"))
+
+
 
 
 
 $foodItems | ft
+$Apps | Ft
