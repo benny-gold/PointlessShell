@@ -25,12 +25,24 @@
     
 $foodItems = @()
 
+# cook & rest the three bird roast
+
 [int]$birdCookTime = 95+30+30
 $foodItems += (Get-WhatTimeToStartCooking -CookingTime $birdCookTime -FoodToBeCooked Bird)
 
-
+# Roast the spuds
 [int]$potatoRoast = 50+7
-$foodItems += (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCooked Roasties)
+$potatoCooking = (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCooked Roasties)
+$foodItems += $potatoCooking
+
+# Get the Nut Roast done before the oven gets too hot
+
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime $potatoRoast -FoodToBeCooked "Nut Roast" -DinnerTime $potatoCooking.StartAtTime)
+
+# Parsnips need a decent roasting
+
+
+
 
 
 $foodItems | ft
