@@ -25,7 +25,7 @@
     <task id="1" name="Potatoes Parboil" note="" work="201600" start="20160821T000000Z" end="20160827T170000Z" work-start="20160821T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20160821T000000Z"/>
     </task>
-    <task id="2" name="Potatoes Roast" note="" work="1440000" start="20160827T170000Z" end="20161016T170000Z" work-start="20160828T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="2" name="Potatoes Roast" note="Thu 24 Dec 2015, 22:42&#10;" work="1440000" start="20160827T170000Z" end="20161016T170000Z" work-start="20160828T080000Z" percent-complete="1" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="1" type="FS"/>
       </predecessors>
@@ -49,20 +49,43 @@
     <task id="7" name="Parsnip Roast" note="" work="1152000" start="20160703T000000Z" end="20160811T170000Z" work-start="20160703T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20160703T000000Z"/>
     </task>
-    <task id="8" name="" note="" work="28800" start="20151224T000000Z" end="20151224T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="9" name="Beans Steam" note="" work="172800" start="20151224T000000Z" end="20151229T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="10" name="Cauliflour Cheese" note="" work="1152000" start="20151224T000000Z" end="20160201T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="11" name="Gravy" note="" work="720000" start="20151224T000000Z" end="20160117T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="12" name="Serve Salmon" note="" work="288000" start="20151224T000000Z" end="20160102T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="13" name="Sprout Slaw Dressing" note="" work="432000" start="20151224T000000Z" end="20160107T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="14" name="Stuffing &amp; pigs" note="" work="691200" start="20151224T000000Z" end="20160116T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="15" name="Yorkies @ 220" note="" work="720000" start="20151224T000000Z" end="20160117T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="16" name="Venison Pigs in Blankets" note="" work="576000" start="20151224T000000Z" end="20160112T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="17" name="Brie &amp; Cranberry Tarts" note="" work="489600" start="20151224T000000Z" end="20160109T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="18" name="Mozzarella Bits" note="" work="201600" start="20151224T000000Z" end="20151230T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="19" name="Sprout Stir Fry" note="" work="720000" start="20151224T000000Z" end="20160117T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="20" name="Pork Rind" note="" work="288000" start="20151224T000000Z" end="20160102T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="21" name="Christmas Pudding @  160" note="" work="1728000" start="20151224T000000Z" end="20160221T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="8" name="Beans Steam" note="" work="172800" start="20161011T000000Z" end="20161016T170000Z" work-start="20161011T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20161011T000000Z"/>
+    </task>
+    <task id="9" name="Cauliflour Cheese" note="" work="1152000" start="20160907T000000Z" end="20161016T170000Z" work-start="20160907T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160907T000000Z"/>
+    </task>
+    <task id="10" name="Gravy" note="" work="720000" start="20160624T000000Z" end="20160718T170000Z" work-start="20160624T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160624T000000Z"/>
+    </task>
+    <task id="11" name="Serve Salmon" note="" work="288000" start="20160828T000000Z" end="20160906T170000Z" work-start="20160828T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160828T000000Z"/>
+    </task>
+    <task id="12" name="Sprout Slaw Dressing" note="" work="432000" start="20160616T000000Z" end="20160630T170000Z" work-start="20160616T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160616T000000Z"/>
+    </task>
+    <task id="13" name="Stuffing &amp; pigs" note="" work="691200" start="20160923T000000Z" end="20161016T170000Z" work-start="20160923T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160923T000000Z"/>
+    </task>
+    <task id="14" name="Yorkies @ 220" note="" work="720000" start="20160930T000000Z" end="20161024T170000Z" work-start="20160930T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160930T000000Z"/>
+    </task>
+    <task id="15" name="Venison Pigs in Blankets" note="" work="576000" start="20160513T000000Z" end="20160601T170000Z" work-start="20160513T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160513T000000Z"/>
+    </task>
+    <task id="16" name="Brie &amp; Cranberry Tarts" note="" work="489600" start="20160516T000000Z" end="20160601T170000Z" work-start="20160516T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160516T000000Z"/>
+    </task>
+    <task id="17" name="Mozzarella Bits" note="" work="201600" start="20151224T000000Z" end="20151230T170000Z" work-start="20151224T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="18" name="Sprout Stir Fry" note="" work="720000" start="20160916T000000Z" end="20161010T170000Z" work-start="20160916T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160916T000000Z"/>
+    </task>
+    <task id="19" name="Pork Rind" note="" work="288000" start="20160513T000000Z" end="20160522T170000Z" work-start="20160513T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160513T000000Z"/>
+    </task>
+    <task id="20" name="Christmas Pudding @  160" note="" work="1728000" start="20161101T000000Z" end="20161230T170000Z" work-start="20161101T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="start-no-earlier-than" time="20161101T000000Z"/>
+    </task>
   </tasks>
   <resource-groups/>
   <resources>
@@ -70,25 +93,24 @@
     <resource id="2" name="Active Time" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
   </resources>
   <allocations>
-    <allocation task-id="21" resource-id="1" units="100"/>
-    <allocation task-id="15" resource-id="1" units="100"/>
-    <allocation task-id="14" resource-id="1" units="100"/>
-    <allocation task-id="17" resource-id="1" units="100"/>
-    <allocation task-id="18" resource-id="1" units="100"/>
-    <allocation task-id="3" resource-id="1" units="100"/>
     <allocation task-id="20" resource-id="1" units="100"/>
-    <allocation task-id="6" resource-id="1" units="100"/>
-    <allocation task-id="5" resource-id="1" units="100"/>
+    <allocation task-id="14" resource-id="1" units="100"/>
+    <allocation task-id="13" resource-id="1" units="100"/>
     <allocation task-id="16" resource-id="1" units="100"/>
+    <allocation task-id="17" resource-id="1" units="100"/>
+    <allocation task-id="3" resource-id="1" units="100"/>
+    <allocation task-id="19" resource-id="1" units="100"/>
+    <allocation task-id="5" resource-id="1" units="100"/>
+    <allocation task-id="15" resource-id="1" units="100"/>
     <allocation task-id="2" resource-id="1" units="100"/>
     <allocation task-id="4" resource-id="1" units="100"/>
     <allocation task-id="7" resource-id="1" units="100"/>
-    <allocation task-id="10" resource-id="1" units="100"/>
-    <allocation task-id="9" resource-id="2" units="100"/>
-    <allocation task-id="19" resource-id="2" units="100"/>
-    <allocation task-id="13" resource-id="2" units="100"/>
+    <allocation task-id="9" resource-id="1" units="100"/>
+    <allocation task-id="8" resource-id="2" units="100"/>
+    <allocation task-id="18" resource-id="2" units="100"/>
     <allocation task-id="12" resource-id="2" units="100"/>
     <allocation task-id="11" resource-id="2" units="100"/>
+    <allocation task-id="10" resource-id="2" units="100"/>
     <allocation task-id="1" resource-id="2" units="100"/>
   </allocations>
 </project>

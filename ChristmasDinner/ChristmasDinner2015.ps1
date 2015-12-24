@@ -51,6 +51,7 @@ $foodItems += (Get-WhatTimeToStartCooking -CookingTime 10 -FoodToBeCooked Salmon
 # Sides
 
 $foodItems += (Get-WhatTimeToStartCooking -CookingTime 6 -FoodToBeCooked Beans)
+$foodItems += (Get-WhatTimeToStartCooking -CookingTime 24 -FoodToBeCooked Garnish)
 $foodItems += (Get-WhatTimeToStartCooking -CookingTime 40 -FoodToBeCooked CauliCheese)
 $foodItems += (Get-WhatTimeToStartCooking -CookingTime 25 -FoodToBeCooked Yorkies -DinnerTime "25 October 2016")
 $foodItems += (Get-WhatTimeToStartCooking -CookingTime 15 -FoodToBeCooked SproutsFirstWay)
