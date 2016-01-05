@@ -1,0 +1,3 @@
+<task id="$taskID" name="$taskName" note="" work="$taskTimeTaken" start="$taskTimeStart" end="$taskTimeEnd" work-start="20160821T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+  <constraint type="must-start-on" time="$taskTimeStartConstraint"/>
+</task>

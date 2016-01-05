@@ -22,7 +22,12 @@
     $Object | Add-Member -type NoteProperty -name StartAtTime -value $timeToStart
     Write-Output $Object
     }
-    
+
+   
+$taskTemplate = Get-Content -Path .\TaskTemplate.xml -Raw
+$allocationTemplate = Get-Content -Path .\AllocationTemplate.xml -Raw
+
+
 $foodItems = @()
 
 # cook & rest the three bird roast
